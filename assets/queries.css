@@ -1,0 +1,64 @@
+@media screen and (max-width: 480px) and (min-width: 320px) {
+    header{
+        display: block;
+    }
+
+    nav{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    nav > a{
+        margin-bottom: .90em;
+    }
+
+    .logo{
+        margin-left: 8%;
+    }
+
+    header > div > a{
+        margin-right: 1em;
+    }
+
+    .signup-btn{
+        padding: 0.4375em 1.1565em 0.375em 1.125em;
+    }
+
+    .log-sign{
+        position: absolute;
+        top: 2.4em;
+        right: -.5em;
+    }
+
+    .sec-1{
+        margin: 0 1.25em 0 1.25em;
+        background-position-x: center;
+        background-position-y: 27em;
+        background-size: 15em;
+    }
+
+    .sec-1 > div > .impact-phrase{
+        font-size: 1.75em;
+        line-height: 27.02px;
+        text-align: center; 
+    }
+
+    .phrase-sec1{
+        font-size: 1.125em;
+        text-align: center;
+    }
+
+    .newsletter-email{
+        padding: 0.813em 0.875em 0.813em 1.25em;
+    }
+
+    .cards{
+        display: flex;
+        justify-content: center;
+    }
+
+    .phrase2-sec1{
+        text-align: center;
+    }
+}
